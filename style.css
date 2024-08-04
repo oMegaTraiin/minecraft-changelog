@@ -1,40 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
 
-body {
-    padding: 0%;
+body{
+    background-image: url(images/obsidian.png);
+    background-position: center;
     margin: 0;
-    background-color: #333333;
+    padding: 0;
+    font-family: 'Source Sans Pro';
+    height: 100%;
 }
 
 ul{
     list-style-type: none;
-    font-family: 'Source Sans Pro';
     font-weight: 700;
     font-size: 18px;
     color: #00d636;
     padding: 0px 0px 10px;
+    text-shadow: 0.02em 0.02em 0.02em #333333
 }
 
 ul li{
     color: #ffffff;
-    font-family: 'Source Sans Pro';
     font-weight: 400;
     font-size: 15px;
     padding: 0px 0px 0px;
-}
-
-
-
-div.title{
-    color: #cfa900;
-    font-family: 'Source Sans Pro';
-    font-size: 18px;
-    padding: 10px 0px 10px;
-}
-
-div.text{
-    color: #ffffff;
-    font-family: 'Source Sans Pro';
-    font-size: 16px;
-    font-style: bold;
+    text-shadow: 0.05em 0.05em 0.05em #333333
 }
