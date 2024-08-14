@@ -3,21 +3,21 @@
 body{
     background-image: url(images/obsidian.png);
     background-position: center;
+    font-family: 'Source Sans Pro';
     margin: 0;
     padding: 0;
-    font-family: 'Source Sans Pro';
-    text-align: left;
-    display: flex;
+    border: 0;
 }
 
 a{
+    color: #00d636;
     text-decoration: none;
 }
 
 ul{
     list-style-type: none;
     font-weight: 700;
-    font-size: 13px;
+    font-size: 16px;
     color: #00d636;
     padding: 0;
     text-shadow: 0.02em 0.02em 0.02em #333333
@@ -26,27 +26,6 @@ ul{
 ul li{
     color: #ffffff;
     font-weight: 400;
-    font-size: 11px;
+    font-size: 14px;
     text-shadow: 0.05em 0.05em 0.05em #333333
-}
-
-.space{
-    color: #ffffff;
-    padding-left: 10px;
-}
-
-.links a{
-    color: #00d636;
-    font-weight: 700;
-    font-size: 13px;
-    text-shadow: 0.05em 0.05em 0.05em #333333
-}
-
-.links a:hover{
-    color: #00aa14;
-    transition: 0.3s;
-}
-
-img{
-    width: 32px;
 }
