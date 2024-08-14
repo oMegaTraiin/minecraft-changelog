@@ -6,8 +6,6 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Source Sans Pro';
-    height: 100%;
-    width: 100%;
     text-align: left;
 }
 
@@ -18,7 +16,7 @@ a{
 ul{
     list-style-type: none;
     font-weight: 700;
-    font-size: 12px;
+    font-size: 13px;
     color: #00d636;
     padding: 0;
     text-shadow: 0.02em 0.02em 0.02em #333333
@@ -27,23 +25,25 @@ ul{
 ul li{
     color: #ffffff;
     font-weight: 400;
-    font-size: 10px;
+    font-size: 11px;
     text-shadow: 0.05em 0.05em 0.05em #333333
 }
 
-.sidebar{
-    background-color: rgb(0, 0, 0, 0.2);
-    margin-top: 2%;
-    margin-right: 1%;
-    margin-left: 90%;
-    font-weight: 700;
-    border-radius: 15px;
-    padding: 15px;
+.space{
+    color: #ffffff;
+    padding-left: 10px;
 }
 
-.discord {
-    color: #ffffff;
-    padding-right: 10px;
+.links a{
+    color: #00d636;
+    font-weight: 700;
+    font-size: 13px;
+    text-shadow: 0.05em 0.05em 0.05em #333333
+}
+
+.links a:hover{
+    color: #00aa14;
+    transition: 0.3s;
 }
 
 img{
